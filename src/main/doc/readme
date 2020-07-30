@@ -1,0 +1,7 @@
+本项目用来搭建一个简单的web项目可以进行controller 的http 访问url:http://localhost:8080/666/gmm/get，
+一开始访问总是返回404 是因为方法上没有加@ResponseBody  或者在Controller 类上添加@RestController
+可以参考这篇博客
+https://blog.csdn.net/menggudaoke/article/details/78203485?utm_source=blogxgwz2
+
+关于注解@ResponseBody 的作用可以参照：
+https://www.cnblogs.com/qiankun-site/p/5774325.html
